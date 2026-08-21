@@ -1,9 +1,7 @@
 <?php
-session_start();
-define('SECURE_ACCESS', true);
 $current_page = 'contact';
 $page_title = 'Contact Us | Start Your Consultation';
-include '../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Header Banner -->
@@ -87,12 +85,12 @@ include '../includes/header.php';
 
             <!-- Right Contact Form -->
             <div class="lg:col-span-7">
-                <?php include '../includes/contact-form.php'; ?>
+                <?php include __DIR__ . '/../includes/contact-form.php'; ?>
             </div>
 
         </div>
     </div>
 </section>
 
-<?php include '../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 

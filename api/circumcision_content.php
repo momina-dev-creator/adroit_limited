@@ -1,9 +1,7 @@
 <?php
-session_start();
-define('SECURE_ACCESS', true);
 $current_page = 'circumcision';
 $page_title = 'Specialist Paediatric Circumcision Service';
-include '../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Header Banner -->
@@ -267,5 +265,5 @@ include '../includes/header.php';
     }
 </script>
 
-<?php include '../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 

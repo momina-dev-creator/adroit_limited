@@ -1,9 +1,7 @@
 <?php
-session_start();
-define('SECURE_ACCESS', true);
 $current_page = 'home';
 $page_title = 'Turn Your Clinical Expertise Into a Private Practice';
-include '../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Hero Section -->
@@ -257,5 +255,5 @@ include '../includes/header.php';
     </div>
 </section>
 
-<?php include '../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
