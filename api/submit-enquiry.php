@@ -26,3 +26,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 $referer = $_SERVER['HTTP_REFERER'] ?? '/contact.php';
 header("Location: " . $referer);
 exit;
+

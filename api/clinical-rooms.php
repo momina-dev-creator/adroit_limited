@@ -3,7 +3,7 @@ session_start();
 define('SECURE_ACCESS', true);
 $current_page = 'clinical-rooms';
 $page_title = 'Clinical Rooms & Hospital Partners';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <!-- Header Banner -->
@@ -108,4 +108,5 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
+

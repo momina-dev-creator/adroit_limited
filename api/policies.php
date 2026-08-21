@@ -3,7 +3,7 @@ session_start();
 define('SECURE_ACCESS', true);
 $current_page = 'policies';
 $page_title = 'Healthcare Policies & Compliance Support';
-include 'includes/header.php';
+include '../includes/header.php';
 
 // List of policies from the document
 $policies = [
@@ -82,4 +82,5 @@ $policies = [
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
+

@@ -3,7 +3,7 @@ session_start();
 define('SECURE_ACCESS', true);
 $current_page = '';
 $page_title = 'Terms & Conditions';
-include 'includes/header.php';
+include '../includes/header.php';
 ?>
 
 <section class="py-16 bg-slate-50">
@@ -33,4 +33,5 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
+
