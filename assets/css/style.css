@@ -1,0 +1,75 @@
+/* Adroit Limited - Custom Stylesheet */
+
+:root {
+    --primary-navy: #0F172A;
+    --primary-blue: #1E3A8A;
+    --primary-teal: #0D9488;
+    --accent-teal: #14B8A6;
+    --background-white: #FFFFFF;
+    --neutral-light: #F8FAFC;
+    --neutral-dark: #334155;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--neutral-dark);
+    background-color: var(--background-white);
+}
+
+.text-navy {
+    color: var(--primary-navy);
+}
+
+.bg-navy {
+    background-color: var(--primary-navy);
+}
+
+.border-navy {
+    border-color: var(--primary-navy);
+}
+
+/* Animations */
+.transition-all-300 {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Floating WhatsApp / Contact Widget */
+.floating-widgets {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.floating-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 9999px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.floating-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}

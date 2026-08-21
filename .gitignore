@@ -1,0 +1,6 @@
+# .gitignore for Adroit Limited PHP Website
+.vscode/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
